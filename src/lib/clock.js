@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Clock from 'react-clock';
+import 'react-clock/dist/Clock.css'
 
 export default function ClientClock() {
     const [value, setValue] = useState(new Date());
